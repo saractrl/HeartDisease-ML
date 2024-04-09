@@ -1,4 +1,4 @@
-# M259: Machine Learning - Personal Key Indicator of Heart Disease
+# Machine Learning Project: M259 - Personal Key Indicator of Heart Disease
 
 **Author:** Sara C. Ramirez  
 **Date:** 30/09/22  
@@ -116,3 +116,13 @@ The dataset was utilized for classification. The DecisionTreeClassifier achieved
 ## Summary <a name="zusammenfassung"></a>
 
 This project utilized a Kaggle dataset and involved extensive data analysis and cleansing. Challenges were encountered during encoding due to the need for transformations in most columns. Classification was employed, with LogisticRegression exhibiting the highest accuracy at 91%. Age category and smoking were identified as major factors influencing heart disease. Model limitations include age category distribution, race, and gender disparities. Further investigation is warranted to address these issues.
+
+---
+
+**Dependencies Used:**
+
+```python
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
